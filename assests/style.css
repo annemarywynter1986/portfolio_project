@@ -1,12 +1,13 @@
 :root {
     --defaultwhite: #ffffff;
-    --defautlfont:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    --defautlfont: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    size-adjust:inherit;
+    /* padding: 0;
+    margin: 0; */
     flex: content;
 }
 
@@ -88,31 +89,36 @@ p {
 
 .random {
     margin-right: 20px;
+    margin-top: 20px;
+    /* margin-bottom: 40px; */
     padding: 20px;
     /* clear: both; */
     float: right;
     width: 20%;
-    height: fit-content;
+    height: max-content;
     font-family: var(--defautlfont);
     background-color: #2589bd;
-    flex:content;
+    flex: content;
 
 }
 
 .hobbies,
-.container{
+.container {
     margin-bottom: 32px;
     color: var(--defaultwhite);
+    padding-bottom: 12px;
+    flex-wrap: inherit;
 }
-.container{
+
+.container {
     border: 2px dotted white;
-  background-color:orchid;
-  margin: 20px;
-  padding: 10px;
+    background-color: orchid;
+    /* margin: 20px; */
+    padding: 10px;
 }
 
 .hobbies h3,
-.container h3{
+.container h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -124,7 +130,7 @@ p {
     max-width: 150px;
 }
 
-#fortune{
+#fortune {
     border: 2px solid white;
     background-color: darkslateblue;
     padding: 20px;
@@ -132,7 +138,7 @@ p {
 }
 
 .about-me,
-.projects{
+.projects {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 50px;
@@ -140,13 +146,13 @@ p {
     font-family: var(--defautlfont);
     background-color: #0072bb;
     color: var(--defaultwhite);
-    
+
 }
 
 
 .about-me img,
 .projects img {
-    max-width:  200px; 
+    max-width: 200px;
     max-height: fit-content;
 }
 
