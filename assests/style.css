@@ -1,6 +1,7 @@
 :root {
     --defaultwhite: #ffffff;
     --defautlfont: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    --headerfooterfont:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 * {
@@ -17,7 +18,7 @@ body {
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--headerfooterfont);
     background-color: #2a607c;
     color: var(--defaultwhite);
     flex: content;
@@ -63,13 +64,13 @@ p {
     font-size: 16px;
 }
 
-/* .background {
+main {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-position: cover;
     position: relative;
-} */
+} 
 
 .float-left {
     float: left;
@@ -81,13 +82,13 @@ p {
     margin-left: 25px;
 }
 
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.random {
+aside {
     margin-right: 20px;
     margin-top: 20px;
     /* margin-bottom: 40px; */
@@ -102,29 +103,27 @@ p {
 
 }
 
-.hobbies,
-.container {
+summary {
     margin-bottom: 32px;
     color: var(--defaultwhite);
     padding-bottom: 12px;
     flex-wrap: inherit;
 }
 
-.container {
+#container {
     border: 2px dotted white;
     background-color: orchid;
     /* margin: 20px; */
     padding: 10px;
 }
 
-.hobbies h3,
-.container h3 {
+summary h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 
-.hobbies img {
+summary img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -137,8 +136,7 @@ p {
 
 }
 
-.about-me,
-.projects {
+article {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 50px;
@@ -150,15 +148,13 @@ p {
 }
 
 
-.about-me img,
-.projects img {
+article img {
     max-width: 200px;
     max-height: fit-content;
 }
 
 
-.about-me h2,
-.projects h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -166,7 +162,7 @@ p {
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--headerfooterfont);
     text-align: center;
 }
 

@@ -25,9 +25,9 @@
         </nav>
     </header>
 
-    <section class="backround">
-        <section class="content">
-            <div class="about-me">
+    <main>
+        <section>
+            <article>
                 <img src="./assests/images/about_me.gif" class="float-left" alt="about me loader gif" /></img>
                 <h2>About me</h2>
                 <p>
@@ -35,8 +35,8 @@
                     languages.
                     Now she is persuing her professional carrer development in web-development
                 </p>
-            </div>
-            <div class="projects">
+            </article>
+            <article>
                 <img src="./assests/images/projects_coming_soon.gif" alt="Coming Soon gif" class="float-right" />
                 <h2>Projects</h2>
                 <p>
@@ -45,11 +45,11 @@
 
 
                 </p>
-            </div>
+            </article>
 
         </section>
-        <section class="random">
-            <summary class="hobbies">
+        <aside>
+            <summary>
                 <h3>HOBBIES</h3>
                 <img src="./assests/images/hobby.gif" class="benefit-lead img" alt="cat hobby gif" />
                 <p>
@@ -57,7 +57,7 @@
 
                 </p>
             </summary>
-            <summary class="container">
+            <summary id="container">
                 <h3>Discover Your Fortune</h3>
                 
                 <button onclick="tellFortune()">Click to get your fortune!</button>
@@ -74,11 +74,16 @@
             </summary>
             <script>
                 var fortunes = [
-    // add more array items here if you want, make sure you put a comma between each one. You can use HTML here! Just remember that if it contains quotes, they need to be escaped, like this: \"
-    "You will win a <em>million</em> dollars! Yay!",
+    
+    "You will win a million dollars! Yay!",
     "You will step on a piece of gum.",
-    "You will be attacked by a fluffy bunny."
-
+    "You will be attacked by a fluffy bunny.",
+    "The love of your life is stepping into your planet this summer.",
+    "Everyone agrees. You are the best.",
+    "Be on the lookout for coming events; They cast their shadows beforehand",
+    "Land is always on the mind of a flying bird.",
+    "What ever you're goal is in life, embrace it visualize it, and for it will be yours",
+    " "
   ];
   
   function tellFortune() {
@@ -88,23 +93,24 @@
   
     // take the fortune at the random spot in the array and insert it into the "fortune" div
     document.getElementById('fortune').innerText=fortunes[randomNumber];
-//    document.getElementById("fortune").indexHTML= fortunes[randomNumber];
+
   }
   
   function reset() {
-    // what goes here? (hint: make the fortune div contain an empty string)
+   
+    document.getElementById('fortune').innerHTML=fortunes[8];
     
   }
             </script>
 
-        </section>
+        </aside>
         <footer>
             <h4>Made with &#x2600;️ by Anne Mary </h4>
             <p>
                 &copy; 2023 This student is working hard.
             </p>
         </footer>
-    </section>
+    </main>
 </body>
 
 </html>
