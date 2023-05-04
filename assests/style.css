@@ -1,22 +1,25 @@
 :root {
+    /* adding variable to consolidate repeatative code for some elements */
     --defaultwhite: #ffffff;
     --defautlfont: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    --headerfooterfont:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --headerfooterfont: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 * {
     box-sizing: border-box;
-    size-adjust:inherit;
-   /* padding: 0;
+    size-adjust: inherit;
+    /* padding: 0;
     margin: 0;  */
     flex: content;
 }
 
 body {
+    /* setting up body color */
     background-color: #f8eee7;
 }
 
 header {
+    /* setting up header parametrs and colors */
     padding: 20px;
     font-family: var(--headerfooterfont);
     background-color: #49274a;
@@ -30,15 +33,19 @@ header h1 {
     flex-wrap: wrap;
     flex: content;
 }
+
 header img {
-    display:inline;
+    /* setting parameters for image of the student in header */
+    display: inline;
     margin: 10px auto;
     max-width: 90px;
     flex: content;
+    padding-bottom: 10px;
 }
 
 
 header nav {
+    /* settings for navigation links for application segments */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -71,12 +78,13 @@ p {
 }
 
 main {
+    /* setting up parameters for main block of the application */
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
     position: relative;
 
-} 
+}
 
 .float-left {
     float: left;
@@ -89,6 +97,7 @@ main {
 }
 
 section {
+    /* setting parameters for all elements in these blocks of the web application */
     width: 75%;
     display: inline-block;
     position: relative;
@@ -96,34 +105,35 @@ section {
 }
 
 aside {
+    /* setting parameters for all elements in side panel of the web application */
     margin-right: 20px;
     margin-top: 20px;
-    /* margin-bottom: 40px; */
     padding: 10px;
-    /* clear: both; */
     float: right;
     width: 20%;
     height: max-content;
     font-family: var(--defautlfont);
     background-color: #49274a;
     flex: content;
-    /* box-sizing: content-box;
-    background-position-x: left; */
+
 
 }
 
 summary {
+    /* setting parameters for all elements in these blocks of the web application */
     margin-bottom: 32px;
     color: var(--defaultwhite);
     padding-bottom: 12px;
     flex-wrap: inherit;
+    padding-bottom: 20px;
 }
 
 #container {
+    /* setting parameters for fortune teller part of the side panel of the web application */
     border: 2px dotted #f4decb;
     background-color: rgb(104, 77, 103);
     /* margin: 20px; */
-    padding: 10px;
+    padding: 30px;
 }
 
 summary h3 {
@@ -134,12 +144,14 @@ summary h3 {
 
 
 summary img {
+    /* setting parameters for gif of the side panel "hobbies" */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 #fortune {
+    /* setting parameters  for text widget of the fortune teller of the web application */
     border: 2px solid white;
     background-color: rgb(237, 181, 237);
     padding: 20px;
@@ -147,6 +159,7 @@ summary img {
 }
 
 article {
+    /* setting parameters for all elements in these blocks of the web application */
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 50px;
@@ -156,11 +169,12 @@ article {
     color: var(--defaultwhite);
     box-sizing: border-box;
     justify-self: left;
-    
+
 
 }
 
 .technology {
+    /* adding block where i placed technology picture of the web application  and setting up this class*/
     height: 500px;
     width: 100%;
     float: left;
@@ -170,21 +184,25 @@ article {
     display: block;
 }
 
-.technology_img { 
-    height:fit-content;
+.technology_img {
+    /* setting parameters technology image*/
+    height: fit-content;
     width: 100%;
     display: block;
-    
+
 }
 
 article img {
+    /* settings for about me gif */
     max-width: 150px;
     max-height: fit-content;
 }
+
 /* adding id for a project img to set up different paramenters to it so it's larger than others */
-#horiseon-img{
-    max-width: 350px;
+#horiseon-img {
+    max-width: 450px;
     max-height: fit-content;
+    padding-bottom: 30px;
 }
 
 
@@ -194,16 +212,10 @@ article h2 {
     font-size: 36px;
     color: #f4decb;
 }
-area img {
-    display: block;
-   block-size:initial;
-   margin-top: 20px;
-    margin-bottom: 20px;
-    height: auto;
 
-}
 
 footer {
+    /* footer settings */
     padding: 20px;
     font-family: var(--headerfooterfont);
     background-color: #49274a;
@@ -215,7 +227,7 @@ footer nav {
     /* padding-top: 15px; */
     /* margin-right: 20px; */
     /* float: right; */
-    float:inherit;
+    float: inherit;
     font-family: var(--defautlfont);
     font-size: 20px;
     background-color: inherit;
