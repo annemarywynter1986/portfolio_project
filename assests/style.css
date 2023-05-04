@@ -7,8 +7,8 @@
 * {
     box-sizing: border-box;
     size-adjust:inherit;
-    /* padding: 0;
-    margin: 0; */
+   /* padding: 0;
+    margin: 0;  */
     flex: content;
 }
 
@@ -28,6 +28,12 @@ header h1 {
     display: inline-block;
     font-size: 48px;
     flex-wrap: wrap;
+    flex: content;
+}
+header img {
+    display:inline;
+    margin: 10px auto;
+    max-width: 90px;
     flex: content;
 }
 
@@ -65,11 +71,11 @@ p {
 }
 
 main {
-    height: 800px;
+    height: 100%;
     width: 100%;
     margin-bottom: 25px;
-    background-position: cover;
     position: relative;
+
 } 
 
 .float-left {
@@ -85,14 +91,15 @@ main {
 section {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    position: relative;
+    margin-left: 10px;
 }
 
 aside {
     margin-right: 20px;
     margin-top: 20px;
     /* margin-bottom: 40px; */
-    padding: 20px;
+    padding: 10px;
     /* clear: both; */
     float: right;
     width: 20%;
@@ -100,6 +107,8 @@ aside {
     font-family: var(--defautlfont);
     background-color: #49274a;
     flex: content;
+    /* box-sizing: content-box;
+    background-position-x: left; */
 
 }
 
@@ -145,14 +154,39 @@ article {
     font-family: var(--defautlfont);
     background-color: #94618e;
     color: var(--defaultwhite);
+    box-sizing: border-box;
+    justify-self: left;
+    
 
 }
 
+.technology {
+    height: 500px;
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.technology_img { 
+    height:fit-content;
+    width: 100%;
+    display: block;
+    
+}
 
 article img {
-    max-width: 200px;
+    max-width: 150px;
     max-height: fit-content;
 }
+/* adding id for a project img to set up different paramenters to it so it's larger than others */
+#horiseon-img{
+    max-width: 350px;
+    max-height: fit-content;
+}
+
 
 
 article h2 {
@@ -160,13 +194,34 @@ article h2 {
     font-size: 36px;
     color: #f4decb;
 }
+area img {
+    display: block;
+   block-size:initial;
+   margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+
+}
 
 footer {
-    padding: 30px;
-    clear: both;
+    padding: 20px;
     font-family: var(--headerfooterfont);
-    text-align: center;
+    background-color: #49274a;
+    color: var(--defaultwhite);
+    display: block;
 }
+
+footer nav {
+    /* padding-top: 15px; */
+    /* margin-right: 20px; */
+    /* float: right; */
+    float:inherit;
+    font-family: var(--defautlfont);
+    font-size: 20px;
+    background-color: inherit;
+    display: inherit;
+}
+
 
 footer h4 {
     font-size: 20px;
