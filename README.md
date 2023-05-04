@@ -16,10 +16,16 @@ https://annemarywynter1986.github.io/portfolio_project/
 
 # Table of content:
 * Student's information: name and photo in header
+![image](https://user-images.githubusercontent.com/130412307/236109254-1642bb2a-a7f0-47f5-b980-dfd657e727f5.png)
+
 * Student's contact information located as links in footer
+![image](https://user-images.githubusercontent.com/130412307/236109309-3e3c4e9b-bef5-4c21-943e-99891d599a09.png)
+
 * About me section
 * Projects section
 * Hobbies and Fortune generator
+![image](https://user-images.githubusercontent.com/130412307/236109389-f5fb3cc6-e0c1-44d8-867a-c482772f8367.png)
+
 * Navigation links to different segments of web application located in header
 * Navigation links in footer for contact information
 * Animated gifs/images
