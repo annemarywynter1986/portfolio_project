@@ -175,7 +175,7 @@ article {
 
 .technology {
     /* adding block where i placed technology picture of the web application  and setting up this class*/
-    height: 500px;
+    height: 300px;
     width: 100%;
     float: left;
     margin-bottom: 25px;
@@ -200,7 +200,7 @@ article img {
 
 /* adding id for a project img to set up different paramenters to it so it's larger than others */
 #scrummy-img {
-    max-width: 450px;
+    max-width: 350px;
     max-height: fit-content;
     padding-bottom: 30px;
 }
