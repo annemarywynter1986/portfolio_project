@@ -199,7 +199,7 @@ article img {
 }
 
 /* adding id for a project img to set up different paramenters to it so it's larger than others */
-#horiseon-img {
+#scrummy-img {
     max-width: 450px;
     max-height: fit-content;
     padding-bottom: 30px;

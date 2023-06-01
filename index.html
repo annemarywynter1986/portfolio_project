@@ -9,11 +9,10 @@
 
 <body>
     <header>
-        <img src="./assests/images/AnneMaryWynter_img.jpg" 
-    
-        class="float-left" alt="photo of student Anne Mary Wynter"></img>
+        <img src="./assests/images/AnneMaryWynter_img.jpg" class="float-left"
+            alt="photo of student Anne Mary Wynter"></img>
         <h1>Anne Mary Wynter</h1>
-        
+
         <nav>
             <ul>
                 <li>
@@ -33,12 +32,12 @@
     </header>
     <section class="technology">
         <div class="technology_img">
-     <img src="./assests/images/5160818.jpg" alt="abstract technology background picture"><img>
+            <img src="./assests/images/5160818.jpg" alt="abstract technology background picture"><img>
         </div>
     </section>
 
     <main>
-       
+
         <section>
             <article id="about-me">
                 <img src="./assests/images/about_me.gif" class="float-left" alt="about me loader gif" /></img>
@@ -50,15 +49,17 @@
                 </p>
             </article>
             <article id="projects">
-                <a href ='https://annemarywynter1986.github.io/Horiseon_refactoring/' target="_blank">
-                <img src="./assests/images/horiseon_project_img.jpg" id="horiseon-img"alt="Horiseon project screenshot" class="float-right" />
-            </a>
+                <a href=' https://rmits.github.io/project-one/' target="_blank">
+                    <img src="./assests/images/scrummy_food.gif" id="scrummy-img"
+                        alt="Scrummy Food Recipies application" class="float-right" />
+                </a>
                 <h2>Projects</h2>
                 <p>
-                    it will be very interesting to read my further achivements and projects,
-                    however for now it's just random text to keep this section occupied. 
-                    Also, when you click on that screenhot you will get navigated to a project i have worked on code refactoring.
-                    I hope you enjoy reading it
+                    This project is designed as an application with a dynamic search tool for desired recipe selection
+                    based on user's input of ingredients or collection of random recipes, so user will never run out of
+                    ideas for cooking and eating!The two server side APIs used were from spoonacular: randomly
+                        generated recipe on main page for someone who feels creative and adventurou and search option
+                        based on ingredients by user's to get recipes suggestions
 
 
                 </p>
@@ -76,7 +77,7 @@
             </summary>
             <summary id="container">
                 <h3>Discover Your Fortune</h3>
-                
+
                 <button onclick="tellFortune()">Click to get your fortune!</button>
 
                 <button onclick="reset()">Reset</button>
@@ -85,57 +86,57 @@
 
                 <!--This is where the random text will go-->
                 <div id="fortune"></div>
-                
+
                 <br /><br /><br />
 
             </summary>
             <script>
                 var fortunes = [
-    
-    "You will win a million dollars! Yay!",
-    "You will step on a piece of gum.",
-    "You will be attacked by a fluffy bunny.",
-    "The love of your life is stepping into your planet this summer.",
-    "Everyone agrees. You are the best.",
-    "Be on the lookout for coming events; They cast their shadows beforehand",
-    "Land is always on the mind of a flying bird.",
-    "What ever you're goal is in life, embrace it visualize it, and for it will be yours",
-    " ",
-    "You are the best. Remember it"
-  ];
-  
-  function tellFortune() {
-    
-    // generate a random number between 0 and the number of the array items
-    var randomNumber = Math.floor(Math.random() * fortunes.length);
-  
-    // take the fortune at the random spot in the array and insert it into the "fortune" div
-    document.getElementById('fortune').innerText=fortunes[randomNumber];
 
-  }
-  
-  function reset() {
-   
-    document.getElementById('fortune').innerHTML=fortunes[8];
-    
-  }
+                    "You will win a million dollars! Yay!",
+                    "You will step on a piece of gum.",
+                    "You will be attacked by a fluffy bunny.",
+                    "The love of your life is stepping into your planet this summer.",
+                    "Everyone agrees. You are the best.",
+                    "Be on the lookout for coming events; They cast their shadows beforehand",
+                    "Land is always on the mind of a flying bird.",
+                    "What ever you're goal is in life, embrace it visualize it, and for it will be yours",
+                    " ",
+                    "You are the best. Remember it"
+                ];
+
+                function tellFortune() {
+
+                    // generate a random number between 0 and the number of the array items
+                    var randomNumber = Math.floor(Math.random() * fortunes.length);
+
+                    // take the fortune at the random spot in the array and insert it into the "fortune" div
+                    document.getElementById('fortune').innerText = fortunes[randomNumber];
+
+                }
+
+                function reset() {
+
+                    document.getElementById('fortune').innerHTML = fortunes[8];
+
+                }
             </script>
 
         </aside>
         <footer>
             <h4>Links and Contact details: </h4>
-            
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://github.com/annemarywynter1986">GitHub</a>
-                </li>
-                <li>
-                    <a href="mailto: missannemary1@gmail.com">Send Email</a>
-                </li>
-                <li a href="tel: +xxxxxxxxxx">Call me at: +1(xxx)xxx-xxxx</li>
-            </ul>
-        </nav>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://github.com/annemarywynter1986">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="mailto: missannemary1@gmail.com">Send Email</a>
+                    </li>
+                    <li a href="tel: +xxxxxxxxxx">Call me at: +1(xxx)xxx-xxxx</li>
+                </ul>
+            </nav>
         </footer>
     </main>
 
