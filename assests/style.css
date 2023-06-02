@@ -1,28 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poltawski+Nowy&display=swap');
+
 :root {
     /* adding variable to consolidate repeatative code for some elements */
     --defaultwhite: #ffffff;
     --defautlfont: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     --headerfooterfont: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 * {
     box-sizing: border-box;
     size-adjust: inherit;
-    /* padding: 0;
-    margin: 0;  */
     flex: content;
 }
 
 body {
     /* setting up body color */
-    background-color: #f8eee7;
+    background-color: black;
 }
 
 header {
     /* setting up header parametrs and colors */
     padding: 20px;
-    font-family: var(--headerfooterfont);
-    background-color: #49274a;
+    font-family: 'Poltawski Nowy', serif;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgb(145, 11, 11) 54%);
     color: var(--defaultwhite);
     flex: content;
 }
@@ -43,13 +45,16 @@ header img {
     padding-bottom: 10px;
 }
 
+h2 {
+    font-family: 'Poltawski Nowy', serif;
+}
 
 header nav {
     /* settings for navigation links for application segments */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: var(--defautlfont);
+    font-family: 'Poltawski Nowy', serif;
     font-size: 20px;
     background-color: inherit;
     -ms-flex-item-align: inherit;
@@ -102,6 +107,8 @@ section {
     display: inline-block;
     position: relative;
     margin-left: 10px;
+    box-shadow: rgba(231, 227, 227, 0.35) 0px 5px 15px;
+
 }
 
 aside {
@@ -115,6 +122,7 @@ aside {
     font-family: var(--defautlfont);
     background-color: #49274a;
     flex: content;
+    box-shadow: rgba(231, 227, 227, 0.35) 0px 5px 15px;
 
 
 }
@@ -139,7 +147,7 @@ summary {
 summary h3 {
     margin-bottom: 10px;
     text-align: center;
-    color: #f4decb;
+    color: var(--defaultwhite)
 }
 
 
@@ -162,13 +170,14 @@ article {
     /* setting parameters for all elements in these blocks of the web application */
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 30px;
     height: 300px;
     font-family: var(--defautlfont);
     background-color: #94618e;
     color: var(--defaultwhite);
     box-sizing: border-box;
     justify-self: left;
+    box-shadow: rgba(231, 227, 227, 0.35) 0px 5px 15px;
 
 
 }
@@ -184,13 +193,6 @@ article {
     display: block;
 }
 
-.technology_img {
-    /* setting parameters technology image*/
-    height: fit-content;
-    width: 100%;
-    display: block;
-
-}
 
 article img {
     /* settings for about me gif */
@@ -224,9 +226,7 @@ footer {
 }
 
 footer nav {
-    /* padding-top: 15px; */
-    /* margin-right: 20px; */
-    /* float: right; */
+  
     float: inherit;
     font-family: var(--defautlfont);
     font-size: 20px;
