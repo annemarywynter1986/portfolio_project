@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poltawski+Nowy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 
 :root {
     /* adding variable to consolidate repeatative code for some elements */
     --defaultwhite: #ffffff;
     --defautlfont: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    --headerfooterfont: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -22,9 +21,9 @@ body {
 header {
     /* setting up header parametrs and colors */
     padding: 20px;
-    font-family: 'Poltawski Nowy', serif;
+    font-family: 'Bruno Ace SC', cursive;
     background: rgb(2, 0, 36);
-    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgb(145, 11, 11) 54%);
+    background: linear-gradient(0deg, rgb(132, 132, 134) 0%, #2c1f90 54%);
     color: var(--defaultwhite);
     flex: content;
 }
@@ -34,6 +33,7 @@ header h1 {
     font-size: 48px;
     flex-wrap: wrap;
     flex: content;
+    font-family: 'Bruno Ace SC', cursive;
 }
 
 header img {
@@ -46,7 +46,7 @@ header img {
 }
 
 h2 {
-    font-family: 'Poltawski Nowy', serif;
+    font-family: 'Bruno Ace SC', cursive;
 }
 
 header nav {
@@ -54,7 +54,7 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Poltawski Nowy', serif;
+    font-family: 'Bruno Ace SC', cursive;
     font-size: 20px;
     background-color: inherit;
     -ms-flex-item-align: inherit;
@@ -107,9 +107,11 @@ section {
     display: inline-block;
     position: relative;
     margin-left: 10px;
-    box-shadow: rgba(231, 227, 227, 0.35) 0px 5px 15px;
+
 
 }
+
+
 
 aside {
     /* setting parameters for all elements in side panel of the web application */
@@ -120,9 +122,9 @@ aside {
     width: 20%;
     height: max-content;
     font-family: var(--defautlfont);
-    background-color: #49274a;
+    background-color: #2c1f90;
     flex: content;
-    box-shadow: rgba(231, 227, 227, 0.35) 0px 5px 15px;
+
 
 
 }
@@ -139,7 +141,7 @@ summary {
 #container {
     /* setting parameters for fortune teller part of the side panel of the web application */
     border: 2px dotted #f4decb;
-    background-color: rgb(104, 77, 103);
+    background-color: rgb(98, 95, 98);
     /* margin: 20px; */
     padding: 30px;
 }
@@ -161,8 +163,9 @@ summary img {
 #fortune {
     /* setting parameters  for text widget of the fortune teller of the web application */
     border: 2px solid white;
-    background-color: rgb(237, 181, 237);
+    background-color: rgb(202, 200, 202);
     padding: 20px;
+
 
 }
 
@@ -173,18 +176,21 @@ article {
     padding: 30px;
     height: 300px;
     font-family: var(--defautlfont);
-    background-color: #94618e;
+    background-color: #959495;
     color: var(--defaultwhite);
     box-sizing: border-box;
     justify-self: left;
-    box-shadow: rgba(231, 227, 227, 0.35) 0px 5px 15px;
+    box-shadow: rgba(254, 254, 255, 0.25) 0px 50px 100px -20px, rgba(250, 248, 248, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
 
+}
 
+article:hover {
+    background-color: darkgrey;
 }
 
 .technology {
     /* adding block where i placed technology picture of the web application  and setting up this class*/
-    height: 300px;
+    height: 60px;
     width: 100%;
     float: left;
     margin-bottom: 25px;
@@ -212,21 +218,21 @@ article img {
 article h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    color: #f4decb;
+    color: black;
 }
 
 
 footer {
     /* footer settings */
     padding: 20px;
-    font-family: var(--headerfooterfont);
-    background-color: #49274a;
+    font-family: 'Bruno Ace SC', cursive;
+    background-color: #2c1f90;
     color: var(--defaultwhite);
     display: block;
 }
 
 footer nav {
-  
+
     float: inherit;
     font-family: var(--defautlfont);
     font-size: 20px;
