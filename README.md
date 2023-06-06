@@ -9,22 +9,25 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 This project has been deployed to GitHub Pages. To get this project up and running, you can follow the deployment link.Or, download from gihub repository links mentioned below
 
 * GitHub Repository: https://github.com/annemarywynter1986/portfolio_project.git
-* Deployed application: 
-
-https://annemarywynter1986.github.io/portfolio_project/
+* Deployed application: https://annemarywynter1986.github.io/portfolio_project/
 
 
 # Table of content:
+![Untitled design (4)](https://github.com/annemarywynter1986/portfolio_project/assets/130412307/3b5cd369-6b3a-4704-8626-87995bec94f3)
+
+
 * Student's information: name and photo in header
-![image](https://user-images.githubusercontent.com/130412307/236109254-1642bb2a-a7f0-47f5-b980-dfd657e727f5.png)
+![image](https://github.com/annemarywynter1986/portfolio_project/assets/130412307/1ba850be-d9ca-4176-a7d0-17069ed64d85)
+
 
 * Student's contact information located as links in footer
-![image](https://user-images.githubusercontent.com/130412307/236109309-3e3c4e9b-bef5-4c21-943e-99891d599a09.png)
+![image](https://github.com/annemarywynter1986/portfolio_project/assets/130412307/1be674f9-4581-4480-9668-058b3fa31bd7)
+
 
 * About me section
 * Projects section
 * Hobbies and Fortune generator
-![image](https://user-images.githubusercontent.com/130412307/236109389-f5fb3cc6-e0c1-44d8-867a-c482772f8367.png)
+
 
 * Navigation links to different segments of web application located in header
 * Navigation links in footer for contact information
@@ -36,6 +39,7 @@ https://annemarywynter1986.github.io/portfolio_project/
 One HTML Pages Index.html
 
 One CSS Page Styles.css located in folder "assets"
+One JavaScript page located in js folder
 
 images located in folder "assets" subfolder "images
 
@@ -43,7 +47,6 @@ images located in folder "assets" subfolder "images
 Github
 email
 phone 
-to Horiseon web application
 
 # Build with
  using html, script, css
