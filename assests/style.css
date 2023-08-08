@@ -107,8 +107,6 @@ section {
     display: inline-block;
     position: relative;
     margin-left: 10px;
-
-
 }
 
 
@@ -124,8 +122,6 @@ aside {
     font-family: var(--defautlfont);
     background-color: #2c1f90;
     flex: content;
-
-
 
 }
 
@@ -207,7 +203,7 @@ article img {
 }
 
 /* adding id for a project img to set up different paramenters to it so it's larger than others */
-#scrummy-img {
+#scrummy-img, #pet-shop-img {
     max-width: 350px;
     max-height: fit-content;
     padding-bottom: 30px;
