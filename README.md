@@ -13,8 +13,11 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 
 
 # Table of content:
-![Untitled design (4)](![Screen Shot 2023-08-07 at 8 56 12 PM](https://github.com/annemarywynter1986/portfolio_project/assets/130412307/59a5396d-a6a8-4ac8-883f-9aea782c5181)
-)
+
+* Updated page with second project screenshot
+
+![Screen Shot 2023-08-07 at 8 56 12 PM](https://github.com/annemarywynter1986/portfolio_project/assets/130412307/de80f3de-e294-494d-b287-d1e0cf938157)
+
 
 
 * Student's information: name and photo in header
