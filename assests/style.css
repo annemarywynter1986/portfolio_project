@@ -140,6 +140,7 @@ summary {
     background-color: rgb(98, 95, 98);
     /* margin: 20px; */
     padding: 30px;
+    color: black;
 }
 
 summary h3 {
