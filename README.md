@@ -13,7 +13,11 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 
 
 # Table of content:
-![Untitled design (4)](https://github.com/annemarywynter1986/portfolio_project/assets/130412307/3b5cd369-6b3a-4704-8626-87995bec94f3)
+
+* Updated page with second project screenshot
+
+![Screen Shot 2023-08-07 at 8 56 12 PM](https://github.com/annemarywynter1986/portfolio_project/assets/130412307/de80f3de-e294-494d-b287-d1e0cf938157)
+
 
 
 * Student's information: name and photo in header
@@ -21,7 +25,8 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 
 
 * Student's contact information located as links in footer
-![image](https://github.com/annemarywynter1986/portfolio_project/assets/130412307/1be674f9-4581-4480-9668-058b3fa31bd7)
+![image](![Screen Shot 2023-08-07 at 8 57 20 PM](https://github.com/annemarywynter1986/portfolio_project/assets/130412307/6c034b7e-f34a-4a21-ba89-759aaae19f9c)
+
 
 
 * About me section
